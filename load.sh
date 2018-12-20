@@ -9,7 +9,7 @@ alias editnotes='nano /home/jhlubucek/notes.txt'
 alias notes='cat ~/notes.txt'
 alias editnotes='nano ~/notes.txt'
 alias pull='git pull && composer install'
-alias camelToSnake='~/scripts/caseChange.sh'
+alias change='~/scripts/caseChange.sh'
 #--------------------------------------------------------scripts
 alias pullall='~/scripts/pull.sh'
 alias ru='~/scripts/reset.sh'
