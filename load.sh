@@ -1,4 +1,4 @@
-. /c/Users/jan.hlubucek/Desktop/DEV-MY/scripts/load-ntb.sh
+. /c/Users/jan.hlubucek/Desktop/DEV-MY/scripts/load-specific.sh
 
 alias br='git branch | grep ^\* | cut -c 3-'
 alias dff='git diff'

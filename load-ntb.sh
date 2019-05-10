@@ -1,7 +1,8 @@
 #!/bin/bash
 
 #=====================================================================ntb specific
-alias cddev='/c/Users/jan.hlubucek/Desktop/DEV-MY'
+alias cddev='cd /c/Users/jan.hlubucek/Desktop/DEV-MY'
+alias cdautomats='cd /c/Users/jan.hlubucek/Desktop/Automats'
 alias notes='cat ~/notes.txt'
 alias editnotes='nano ~/notes.txt'
 #--------------------------------------------------------scriprs ntb
