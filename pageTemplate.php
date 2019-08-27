@@ -6,9 +6,9 @@ use \Codeception\Util\Locator;
 class CLASSNM
 {
     // include url of current page
-    public static $URL = '/provize-spolupracovniku';
+    public static $URL = '/PGURL';
     public static $AssociateFieldText = "//*[@id=\"ftr\"]";
-	public static $Class = "";
+	public static $Class = ['class' => ""];
 
 
 
@@ -50,7 +50,7 @@ class CLASSNM
             $I->seeElement($element);
         }
 
-        //$I->seeElement(Locator::find('a', ['class' => self::$ExportButtonClass]));
+        //Locator::find('a', self::$ExportButtonClass]);
         //$I->seeElement(Locator::combine(self::$ProductFieldtext, self::$ProductFieldCombobox));
     }
 }

@@ -8,8 +8,9 @@
 use Page\LoginPage as LoginPage;
 use Page\PGNM as PGNM;
 
+//muhahahahahahahaha
 
-//codecept run --env pre.bhold acceptance CommissionBudgetedToBrokersAdminCheckCept.php --steps
+//codecept run --env pre.bhold acceptance TESTNM.php --steps
 //https://jira.bootiq.io/browse/FINN-NUM
 
 

@@ -1,4 +1,4 @@
-. /c/Users/jan.hlubucek/Desktop/DEV-MY/scripts/load-specific.sh
+
 
 alias br='git branch | grep ^\* | cut -c 3-'
 alias dff='git diff'
@@ -23,3 +23,5 @@ HOST=$(hostname)
 echo "-------------------------------------------------------------"
 echo "Date: $TODAY    TIME: $TIME    Host:$HOST"
 echo "-------------------------------------------------------------"
+
+. /c/Users/jan.hlubucek/Desktop/DEV-MY/scripts/load-specific.sh
