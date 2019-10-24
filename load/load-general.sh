@@ -4,6 +4,7 @@ alias br='git branch | grep ^\* | cut -c 3-'
 alias dff='git diff'
 alias st='git status'
 alias add='git add'
+alias commitpush='git add . && git commit -m "commit all" && git push'
 #--------------------------------------------------------scripts
 alias branches='~/scripts/branches.sh'
 alias change='~/scripts/caseChange.sh'
