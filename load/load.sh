@@ -1,3 +1,4 @@
-. load-general.sh
-devpath=/c/Users/honza/Desktop/DEV-MY
-. load-pc.sh $devpath
+devpath = $1
+
+. load-general.sh $devpath
+. load-work.sh $devpath

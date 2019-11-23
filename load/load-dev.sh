@@ -12,6 +12,4 @@ alias pullall='~/scripts/pull.sh'
 alias ru='~/scripts/reset.sh'
 alias check='~/scripts/check.sh'
 
-#CD
-cd /var/www/html/private/jhlubucek/
 
