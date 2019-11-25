@@ -10,3 +10,5 @@ localbranches
 cd $dev/Automats/extranet-master 
 echo "EXTRANET local br------------------"
 localbranches
+
+alias rmoutput='rm tests/_output/*'
