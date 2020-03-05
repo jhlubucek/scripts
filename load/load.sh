@@ -3,11 +3,10 @@ dev=$1
 #=====================================================================ntb specific
 x="cd $dev"
 alias cddevv=$x
-x="cat $dev/scripts2/load/notes.txt"
+x="cat $dev/scripts/load/notes.txt"
 alias notes=$x
-x="nano $dev/scripts2/load/notes.txt"
+x="nano $dev/scripts/load/notes.txt"
 alias editnotes=$x
-
 alias br='git branch | grep ^\* | cut -c 3-'
 alias dff='git diff'
 alias st='git status'
@@ -17,9 +16,7 @@ alias localbranches='git branch | grep -v "master"'
 #--------------------------------------------------------scripts
 alias branches='~/scripts/branches.sh'
 alias change='~/scripts/caseChange.sh'
-
 clear
-
 echo ' _     _   _   _                      '
 echo '| |   (_) | | | |                     '
 echo '| |__  _  | |_| | ___  _ __  ______ _ '
