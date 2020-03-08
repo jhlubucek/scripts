@@ -2,7 +2,7 @@
 dev=$1
 #=====================================================================ntb specific
 x="cd $dev"
-alias cddevv=$x
+alias cddev=$x
 x="cat $dev/scripts/load/notes.txt"
 alias notes=$x
 x="nano $dev/scripts/load/notes.txt"
