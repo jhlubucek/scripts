@@ -7,3 +7,6 @@ parse_git_branch() {
 }
 
 export PS1="\[\e[92m\]\u\[\e[m\]@\[\e[35m\]\h\[\e[m\]- \[\e[93m\]\w\[\e[m\] \[\e[96m\]\`parse_git_branch\`\[\e[m\] "
+
+git config --global user.name "jhlubucek"
+git config --global user.email "jan.hlubucek@bootiq.io"
