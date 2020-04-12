@@ -13,6 +13,7 @@ alias st='git status'
 alias add='git add'
 alias pushall=' git pull && git add -A && git commit -m "commit all" && git push && git pull'
 alias localbranches='git branch | grep -v "master"'
+alias ll='ls -la'
 #--------------------------------------------------------scripts
 alias branches='~/scripts/branches.sh'
 alias change='~/scripts/caseChange.sh'
