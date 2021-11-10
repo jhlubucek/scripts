@@ -1,0 +1,7 @@
+crontab je i v /etc
+
+prava pri buildu cache files log a ještě něco. kdyžta ví vojta
+docker exec -it "conteiner" bash
+
+pro xdebug menit VPN IP v nano /usr/local/etc/php/conf.d/docker-php-ext-xdebug.ini
++ restartovad konteiner

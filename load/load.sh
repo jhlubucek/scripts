@@ -1,6 +1,7 @@
 #!/bin/bash
 dev=$1
 #=====================================================================ntb specific
+alias koko='ls'
 x="cd $dev"
 alias cddev=$x
 x="cat $dev/scripts/load/notes.txt"
@@ -31,4 +32,3 @@ HOST=$(hostname)
 echo "-------------------------------------------------------------"
 echo "Date: $TODAY    TIME: $TIME    Host:$HOST"
 echo "-------------------------------------------------------------"
-
