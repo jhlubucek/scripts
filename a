@@ -1,5 +1,0 @@
-#!/bin/bash
-
-x="jhlubucek"
-cd "/home/$x"
-pwd
